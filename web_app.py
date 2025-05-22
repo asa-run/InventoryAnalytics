@@ -4,7 +4,6 @@ from engine.data_loader import load_invoice_data
 from engine import analytics_engine as ae
 from engine.charting import render_trend_chart
 from engine.schema_mapping import COLUMN_ALIASES
-import io
 import pandas as pd
 
 # Load data
